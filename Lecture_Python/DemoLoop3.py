@@ -10,6 +10,7 @@ print([len(i) for i in tp])
 d = {100:"apple", 200:"orange"}
 print([v.upper() for v in d.values()])
 
+
 # 필터링
 lst = [10, 25, 30]
 iterL = filter(None, lst)
