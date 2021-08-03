@@ -45,3 +45,4 @@ print(device)
 print( device[0] )
 
 # Ctrl + /  --> (주석처리)
+
