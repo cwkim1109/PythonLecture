@@ -27,3 +27,4 @@ iterL = filter(getBiggerThan20, lst)
 for i in iterL:
     print(i)
 
+
