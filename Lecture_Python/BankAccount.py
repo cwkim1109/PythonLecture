@@ -10,6 +10,7 @@ class BankAccount:
         self.balance += amount 
     def withdraw(self, amount):
         self.balance -= amount
+    #인스턴스의 문자열을 출력
     def __str__(self):
         return "{0}, {1}, {2}".format(self.id, 
         self.name, self.balance)
