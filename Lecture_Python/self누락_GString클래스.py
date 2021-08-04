@@ -7,7 +7,8 @@ class GString:
     def set(self, msg):
         self.str = msg
     def print(self):
-        print(str)
+        #버그가 발생~~
+        print(self.str)
 
 #인스턴스 생성
 g = GString()
